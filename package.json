@@ -47,6 +47,11 @@
       "type": "object",
       "title": "PDF Preview",
       "properties": {
+        "pdf-preview.default.lookupUrl": {
+          "markdownDescription": "The default url for look up the selected word",
+          "type": "string",
+          "default": "https://localhost:7159/api/Words/Lookup"
+        },
         "pdf-preview.default.cursor": {
           "markdownDescription": "The default cursor tool for preview.",
           "type": "string",
