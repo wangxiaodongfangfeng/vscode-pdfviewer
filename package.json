@@ -50,7 +50,7 @@
         "pdf-preview.default.lookupUrl": {
           "markdownDescription": "The default url for look up the selected word",
           "type": "string",
-          "default": "https://localhost:7159/api/Words/Lookup"
+          "default": "http://localhost:5011/api/Words/Lookup"
         },
         "pdf-preview.default.cursor": {
           "markdownDescription": "The default cursor tool for preview.",
@@ -105,7 +105,8 @@
     "package": "vsce package"
   },
   "dependencies": {
-    "@types/vscode": "^1.46.0"
+    "@types/vscode": "^1.46.0",
+    "axios": "^1.7.8"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.1",
